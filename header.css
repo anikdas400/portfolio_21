@@ -135,7 +135,113 @@
     gap: 30px;
     margin-top: 20px;
 }
+/* award */
+.award-section{
+    
+    padding: 30px 10px;
+    background-color: rgb(53, 63, 63);
+    margin-bottom: 30px;
+}
+.award-head{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.award-des{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding: 30px ;
+    background-color: #000;
+    margin-top: 10px;
+    border-radius: 20px;
+    /* margin-bottom: -10px; */
+}
+/* portfolio-head */
+.portfolio-section{
+    padding: 30px 10px;
+    background-color: rgb(13, 129, 110);
+    /* margin-bottom: 30px; */
+    margin-top: -30px;
+}
+.portfolio-head{
+    text-align: center;
+    margin-bottom: 30px;
+}
+.pro-head{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+.pro-head h2{
+    background-color: #000;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.pro-head h3{
+    background-color: orange;
+    padding: 8px;
+    border-radius: 8px;
+    font-size: 20px;
+}
+.ux{
+    margin-top: 50px;
+}
+.up-ux{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    margin-top: 20px;
+}
+.pro-text{
+    text-align: start;
+    padding: 20px 30px;
+     margin-top: 40px;
+    
+}
+.imge{
+    width: 600px;
+    /* border-radius: 20px; */
+}
 
+/* contact-section */
+.contact-section{
+    background-color: rgb(88, 39, 134);
+    
+}
+.contact-head{
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    
+    padding: 50px 20px;
+}
+.contact-head h2{
+    margin-top: 15px;
+}
+.project{
+    background-color: rgb(107, 107, 70);
+    
+    
+}
+
+.project-form{
+    
+    padding: 20px;
+}
+.forms{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    
+}
+.forms h2{
+    /* margin-bottom: 5px; */
+}
+.hook{
+    width: 30px;
+    height: 30px;
+}
 
 @media only screen and (min-width: 200px) and (max-width: 720px) {
     .banner{
