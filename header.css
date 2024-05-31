@@ -101,14 +101,43 @@
     justify-content: space-evenly;
     justify-items: center;
     margin-top: 80px;
+    padding: 20px;
 }
 .about h2{
     font-size: 30px;
     font-weight: 600;
 }
+.about p{
+    color: rgb(205, 183, 183);
+    font-size: 20px;
+    margin-top: 15px;
+}
+.svgsd{
+    width: 30px;
+    color: rgb(245, 171, 21);
+}
+
+/* experience */
+
+.experience{
+    display: flex;
+    justify-content: space-around;
+    justify-items: center;
+    padding: 80px;
+    background-color: rgb(50, 124, 125);
+    margin-top: 30px;
+
+}
+.row{
+    border-bottom: 2px dotted rgb(152, 163, 7);
+    padding: 5px;
+    display: flex;
+    gap: 30px;
+    margin-top: 20px;
+}
 
 
-@media only screen and (min-width: 200px) and (max-width: 576px) {
+@media only screen and (min-width: 200px) and (max-width: 720px) {
     .banner{
        flex-direction: column;
        padding: 5px;
@@ -117,5 +146,19 @@
         flex-direction: column;
         padding: 15px;
         gap: 5px;
+    }
+    .about-section{
+    flex-direction: column;}
+    .about{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .experience{
+        flex-direction: column;
+        
+    }
+    .ex-right{
+        margin-top: 30px;
+        
     }
 }
